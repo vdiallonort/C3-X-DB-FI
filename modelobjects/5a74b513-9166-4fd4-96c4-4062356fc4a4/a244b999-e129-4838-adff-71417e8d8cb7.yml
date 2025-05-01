@@ -111,12 +111,13 @@ terms:
     name: 'salesorderid'
     hiddenInSource: false
     hiddenInTarget: false
-    isBusinessKey: false
+    isBusinessKey: true
     isForeignKey: false
     isIdentity: false
-    isNullable: true
+    isNullable: false
     dataType:
       platformDataTypeId: 'c6f208b6-6dc4-4977-bed0-a7775c9ff888'
+    propertyValues: []
   - id: 'cc555a44-ab84-4e6f-b4f7-a88fc26a2b8c'
     name: 'revisionnumber'
     hiddenInSource: false
