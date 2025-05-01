@@ -4,7 +4,13 @@ views:
     description: 'Default view for data pipe.'
     default: true
     type: 'data-pipe'
-    modelObjects: []
+    modelObjects:
+      - id: 'f01e455e-44aa-4364-8342-47dff774e10c'
+      - id: 'f8cfd242-b059-40a8-aac2-593edd26905d'
+      - id: '45afa0fd-2974-4125-99a4-b29073414ac6'
+      - id: '0049ef45-c68e-4bc1-a9e3-bb584496728c'
+      - id: 'fa156d65-b34a-4744-896d-4b6ecf730fe8'
+      - id: '86d025dd-072d-4400-a557-57b16bf4e4b0'
   - id: 'f5c5b7ee-ef20-4c72-8149-a8c575b0d478'
     name: 'Datamodel View 1'
     description: 'Default view for data model.'
