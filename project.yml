@@ -1,0 +1,7 @@
+id: 'd829e8ec-d42d-4473-737b-08dd7ccec69f'
+name: 'C3-X-DB-FI'
+description: 'This is my eLearning Project with the Databricks Stage Filegenerator to practice for the course C3-X-DB-DV'
+version: 'v1.5'
+configuration:
+  id: 'biGENIUS.Implementation.Generator.Stage.Spark.Databricks.File'
+  version: '1.9.0'
