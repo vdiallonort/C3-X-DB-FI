@@ -1,0 +1,63 @@
+id: '4e8baac3-5c13-4c0d-8a09-3d12239b64a7'
+name: 'crm'
+appVersion: '1.4.0'
+timestamp: '2025-05-05T14:31:17+00:00'
+sourceObjects:
+  - name: 'CUSTOMERCRM'
+    terms:
+      - name: 'AccountNumber'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'Marital_Status'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'Gender'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'Number_Of_Children'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'integer'
+        sourceDataType:
+          name: 'int32'
+          isNullable: true
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+sourceSystem:
+  type: 'Parquet'
