@@ -6,12 +6,13 @@ terms:
     name: 'AccountNumber'
     hiddenInSource: false
     hiddenInTarget: false
-    isBusinessKey: false
+    isBusinessKey: true
     isForeignKey: false
     isIdentity: false
-    isNullable: true
+    isNullable: false
     dataType:
       platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+    propertyValues: []
   - id: 'c9bd79bd-99b3-4993-b170-664a89749bbf'
     name: 'Marital_Status'
     hiddenInSource: false
