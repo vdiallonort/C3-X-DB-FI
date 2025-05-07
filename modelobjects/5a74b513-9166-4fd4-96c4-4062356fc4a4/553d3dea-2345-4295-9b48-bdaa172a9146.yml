@@ -1,6 +1,7 @@
 id: '553d3dea-2345-4295-9b48-bdaa172a9146'
 name: 'CUSTOMERCRM'
-description: 'Generated Model Object from CUSTOMERCRM'
+description: 'Generated Model Object from CUSTOMERCRM.'
+isDeactivated: false
 modelObjectTypeId: '5a74b513-9166-4fd4-96c4-4062356fc4a4'
 terms:
   - id: '2f765418-e11c-4658-abb7-2295180689a5'
